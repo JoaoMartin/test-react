@@ -53,7 +53,7 @@ thead th span.sortIcons {
   margin-right: 5px;
   font-size: 0.8em;
   display: inline-block;
-  margin-right: 5px; /* Asegura un pequeño espacio entre los iconos y el texto */
+  margin-right: 5px; 
 }
 
 .imgThumbnail {
