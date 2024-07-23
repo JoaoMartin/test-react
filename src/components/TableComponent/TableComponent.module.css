@@ -1,0 +1,95 @@
+.table {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 14px;
+  border-collapse: collapse;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+}
+
+.table th, .table td {
+  padding: .6rem .5rem;
+  border: none;
+}
+
+.table-light {
+  background: #efefef;
+  border-top: 1px solid #efefef;
+}
+
+.table>:not(caption)>*>* {
+  background-color: white;
+}
+
+.table>:not(:last-child)>:last-child>* {
+  border-bottom: 1px solid #efefef!important;
+  background: #d3dbdb82;
+}
+
+td {
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+tr th {
+  font-weight: 500!important;
+  vertical-align: middle;
+  line-height: 1.2;
+  font-size: 13px;
+}
+
+thead th {
+  border-bottom: 1px solid #efefef;
+  border-top: 1px solid #efefef;
+  font-weight: 600;
+  padding: .65rem .5rem!important;
+  cursor: pointer;
+  position: relative;
+}
+
+thead th span.sortIcons {
+  margin-right: 5px;
+  font-size: 0.8em;
+  display: inline-block;
+  margin-right: 5px; /* Asegura un pequeño espacio entre los iconos y el texto */
+}
+
+.imgThumbnail {
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  border: 1px;
+  padding: 2px;
+}
+
+td {
+  vertical-align: middle!important;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.pagination button {
+  margin: 0 0.25rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background-color: white;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
